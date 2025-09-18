@@ -10,7 +10,7 @@ Un sistema web diseñado para **optimizar la administración de una farmacia**, 
 - 📦 **Gestión de inventario**: registro, actualización y control de medicamentos.
 - 🛒 **Módulo de ventas** con generación de tickets y reportes.
 - 👥 **Gestión de clientes y proveedores**.
-- 📊 **Reportes** de ventas, existencias y movimientos.
+- 📊 **Reportes** de ventas, existencias y movimientos. m
 - 📱 **Interfaz amigable y responsive** (compatible con móviles).
 - 💾 **Base de datos MySQL** para almacenamiento confiable.
 
