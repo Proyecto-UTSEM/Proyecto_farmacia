@@ -14,7 +14,7 @@
   <!-- Encabezado -->
   <header>
     <div class="logo">
-      <img src="logo.png" alt="Logo Consultorio">
+      <img src="././imagenes/medical.png" alt="Logo Consultorio">
       <h2>CONSULTORIO MÉDICO SANTAMARÍA</h2>
     </div>
     <nav>
