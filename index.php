@@ -42,16 +42,17 @@
         <li>Psicología</li>
       </ul>
 
-      <h3>RECOMENDACIONES</h3>
-      <ul>
-        <li>En un esfuerzo por aumentar la esperanza de vida saludable.</li>
-        <li>Chequeos médicos regulares para una detección temprana de enfermedades.</li>
-        <li>Incentivamos el cuidado de la salud como parte del bienestar integral.</li>
-        <li>Apoyamos la importancia de los chequeos médicos constantes.</li>
-        <li>Fomentar el hábito de chequeos de salud preventivos.</li>
-        <li>Recomendamos mantener un estilo de vida activo.</li>
-      </ul>
-
+      <div class="recomendaciones">
+        <h3>RECOMENDACIONES</h3>
+        <ul>
+          <li>En un esfuerzo por aumentar la esperanza de vida saludable.</li>
+          <li>Chequeos médicos regulares para una detección temprana de enfermedades.</li>
+          <li>Incentivamos el cuidado de la salud como parte del bienestar integral.</li>
+          <li>Apoyamos la importancia de los chequeos médicos constantes.</li>
+          <li>Fomentar el hábito de chequeos de salud preventivos.</li>
+          <li>Recomendamos mantener un estilo de vida activo.</li>
+        </ul>
+      </div>
       <div class="btn-center" style="text-align: center;">
         <a href="agendar.php" class="btn-agendar">Agendar cita</a>
       </div>

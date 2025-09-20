@@ -1,8 +1,10 @@
+/* ====== ESTILOS GENERALES ====== */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f5f5;
+  background: #f0f4f8;
+  color: #333;
 }
 
 /* ====== HEADER ====== */
@@ -10,10 +12,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0277BD;
-  /* Azul fuerte */
+  background: #0277BD; /* Azul fuerte */
   padding: 15px 50px;
   color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 .logo {
@@ -31,7 +33,8 @@ header {
 
 header h2 {
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.4em;
+  letter-spacing: 1px;
 }
 
 nav a {
@@ -50,52 +53,103 @@ nav a:hover {
 main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 50px;
   background: #fff;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .contenido {
-  max-width: 600px;
-
+  flex: 1;
+  max-width: 650px;
 }
 
 .contenido h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  color: #01579B;
 }
 
 .contenido p {
   margin: 15px 0;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 1.1rem;
+  color: #444;
 }
 
+/* ====== ESPECIALIDADES ====== */
+.especialidades {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 30px;
+  list-style-type: "✔ ";
+  padding: 0;
+  margin: 20px 0;
+}
+
+.especialidades li {
+  font-size: 1.05rem;
+  padding: 5px 0;
+}
+
+/* ====== RECOMENDACIONES (EN CUADRO) ====== */
+.recomendaciones {
+  background: #E3F2FD;
+  border-left: 6px solid #0277BD;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.recomendaciones h3 {
+  margin-top: 0;
+  color: #0277BD;
+}
+
+.recomendaciones ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+  list-style-type: "💡 ";
+}
+
+.recomendaciones li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+/* ====== BOTÓN AGENDAR ====== */
 .btn-agendar {
   display: inline-block;
   padding: 12px 25px;
-  background: #00BCD4;
-  /* Azul claro botón */
+  background: #00BCD4; /* Azul claro */
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 6px;
   transition: 0.3s;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .btn-agendar:hover {
   background: #00838F;
+  transform: scale(1.05);
 }
 
+/* ====== IMAGEN ====== */
 .imagen {
   width: 350px;
   height: 300px;
-  background: #ccc;
+  background: #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333;
   font-weight: bold;
+  color: #555;
 }
 
 /* ====== FOOTER ====== */
@@ -106,27 +160,5 @@ footer {
   color: white;
   margin-top: 20px;
   font-size: 0.9em;
-}
-
-.especialidades {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px 40px;
-  list-style-type: "✔ ";
-  padding: 0;
-  margin: 20px 0;
-}
-
-.especialidades li {
-  font-size: 1.1rem;
-  padding: 5px 0;
-}
-
-.btn-agendar {
-  display: block;
-  width: max-content;
-  margin: 1.5rem auto 0;
-  padding: 0.6rem 1rem;
-  text-decoration: none;
-  border-radius: 6px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
 }
