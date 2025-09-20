@@ -3,12 +3,14 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consultorio Médico Santamaría</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
   <header>
@@ -26,9 +28,10 @@
     <div class="contenido">
       <h1>BIENVENIDO/A</h1>
       <p>En el Consultorio Médico Santamaría creemos que una vida sana comienza con una atención de calidad.
-Por eso te ofrecemos servicios médicos con profesionalismo, respeto y un compromiso real con tu bienestar,contamos con un equipo de profesionales calificados que te acompañan con atención personalizada y humana en cada etapa de tu vida.</p>
-      <h2>ESPECIALIDADES</h2>
-      <ul>
+        Por eso te ofrecemos servicios médicos con profesionalismo, respeto y un compromiso real con tu bienestar,contamos con un equipo de profesionales calificados que te acompañan con atención personalizada y humana en cada etapa de tu vida.</p>
+
+      <h3>ESPECIALIDADES</h3>
+      <ul class="especialidades">
         <li>Medicina General</li>
         <li>Pediatría</li>
         <li>Ginecología</li>
@@ -37,8 +40,9 @@ Por eso te ofrecemos servicios médicos con profesionalismo, respeto y un compro
         <li>Neurología</li>
         <li>Ortopedia</li>
         <li>Psicología</li>
-        </ul>
-      <h2>RECOMENDACIONES</h2>
+      </ul>
+
+      <h3>RECOMENDACIONES</h3>
       <ul>
         <li>En un esfuerzo por aumentar la esperanza de vida saludable.</li>
         <li>Chequeos médicos regulares para una detección temprana de enfermedades.</li>
@@ -48,7 +52,9 @@ Por eso te ofrecemos servicios médicos con profesionalismo, respeto y un compro
         <li>Recomendamos mantener un estilo de vida activo.</li>
       </ul>
 
-      <a href="agendar.php" class="btn-agendar">Agendar cita</a>
+      <div class="btn-center" style="text-align: center;">
+        <a href="agendar.php" class="btn-agendar">Agendar cita</a>
+      </div>
     </div>
 
     <div class="imagen">
@@ -60,4 +66,5 @@ Por eso te ofrecemos servicios médicos con profesionalismo, respeto y un compro
   </footer>
 
 </body>
+
 </html>
