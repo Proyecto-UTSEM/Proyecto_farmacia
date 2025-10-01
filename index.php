@@ -20,7 +20,7 @@
     </div>
     <nav>
       <a href="#">Inicio</a>
-      <a href="agendar.php">Agendar cita</a>
+      <a href="Agenda_Cita.php">Agendar cita</a>
       <a href="contacto.php">Contacto</a>
     </nav>
   </header>
